@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A7AFED11564D1B000ED3144 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7AFED01564D1B000ED3144 /* UIKit.framework */; };
+		4A7AFED31564D1B000ED3144 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7AFED21564D1B000ED3144 /* Foundation.framework */; };
+		4A7AFED51564D1B000ED3144 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7AFED41564D1B000ED3144 /* CoreGraphics.framework */; };
+		4A7AFEDB1564D1B000ED3144 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A7AFED91564D1B000ED3144 /* InfoPlist.strings */; };
+		4A7AFEDD1564D1B000ED3144 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7AFEDC1564D1B000ED3144 /* main.m */; };
+		4A7AFEE11564D1B000ED3144 /* WamTabBarAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7AFEE01564D1B000ED3144 /* WamTabBarAppDelegate.m */; };
+		4A7AFEE41564D1B000ED3144 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A7AFEE21564D1B000ED3144 /* MainWindow.xib */; };
+		4A7AFEE71564D1B000ED3144 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7AFEE61564D1B000ED3144 /* FirstViewController.m */; };
+		4A7AFEEA1564D1B000ED3144 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7AFEE91564D1B000ED3144 /* SecondViewController.m */; };
+		4A7AFEED1564D1B000ED3144 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A7AFEEB1564D1B000ED3144 /* FirstView.xib */; };
+		4A7AFEF01564D1B000ED3144 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A7AFEEE1564D1B000ED3144 /* SecondView.xib */; };
+		4A7AFEF81564D1B000ED3144 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7AFEF71564D1B000ED3144 /* SenTestingKit.framework */; };
+		4A7AFEF91564D1B000ED3144 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7AFED01564D1B000ED3144 /* UIKit.framework */; };
+		4A7AFEFA1564D1B000ED3144 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7AFED21564D1B000ED3144 /* Foundation.framework */; };
+		4A7AFEFB1564D1B000ED3144 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7AFED41564D1B000ED3144 /* CoreGraphics.framework */; };
+		4A7AFF031564D1B000ED3144 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A7AFF011564D1B000ED3144 /* InfoPlist.strings */; };
+		4A7AFF051564D1B000ED3144 /* WamTabBarTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 4A7AFF041564D1B000ED3144 /* WamTabBarTests.h */; };
+		4A7AFF071564D1B000ED3144 /* WamTabBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7AFF061564D1B000ED3144 /* WamTabBarTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A7AFEFC1564D1B000ED3144 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A7AFEC31564D1B000ED3144 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A7AFECB1564D1B000ED3144;
+			remoteInfo = WamTabBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A7AFECC1564D1B000ED3144 /* WamTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WamTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A7AFED01564D1B000ED3144 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4A7AFED21564D1B000ED3144 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4A7AFED41564D1B000ED3144 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4A7AFED81564D1B000ED3144 /* WamTabBar-Info.plist */ = {isa = PBXFileReference; path = "WamTabBar-Info.plist"; sourceTree = "<group>"; };
+		4A7AFEDA1564D1B000ED3144 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A7AFEDC1564D1B000ED3144 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A7AFEDE1564D1B000ED3144 /* WamTabBar-Prefix.pch */ = {isa = PBXFileReference; path = "WamTabBar-Prefix.pch"; sourceTree = "<group>"; };
+		4A7AFEDF1564D1B000ED3144 /* WamTabBarAppDelegate.h */ = {isa = PBXFileReference; path = WamTabBarAppDelegate.h; sourceTree = "<group>"; };
+		4A7AFEE01564D1B000ED3144 /* WamTabBarAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WamTabBarAppDelegate.m; sourceTree = "<group>"; };
+		4A7AFEE31564D1B000ED3144 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		4A7AFEE51564D1B000ED3144 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		4A7AFEE61564D1B000ED3144 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		4A7AFEE81564D1B000ED3144 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		4A7AFEE91564D1B000ED3144 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		4A7AFEEC1564D1B000ED3144 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		4A7AFEEF1564D1B000ED3144 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		4A7AFEF61564D1B000ED3144 /* WamTabBarTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WamTabBarTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A7AFEF71564D1B000ED3144 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4A7AFF001564D1B000ED3144 /* WamTabBarTests-Info.plist */ = {isa = PBXFileReference; path = "WamTabBarTests-Info.plist"; sourceTree = "<group>"; };
+		4A7AFF021564D1B000ED3144 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A7AFF041564D1B000ED3144 /* WamTabBarTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WamTabBarTests.h; sourceTree = "<group>"; };
+		4A7AFF061564D1B000ED3144 /* WamTabBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WamTabBarTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A7AFEC91564D1B000ED3144 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A7AFED11564D1B000ED3144 /* UIKit.framework in Frameworks */,
+				4A7AFED31564D1B000ED3144 /* Foundation.framework in Frameworks */,
+				4A7AFED51564D1B000ED3144 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A7AFEF21564D1B000ED3144 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A7AFEF81564D1B000ED3144 /* SenTestingKit.framework in Frameworks */,
+				4A7AFEF91564D1B000ED3144 /* UIKit.framework in Frameworks */,
+				4A7AFEFA1564D1B000ED3144 /* Foundation.framework in Frameworks */,
+				4A7AFEFB1564D1B000ED3144 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A7AFEC11564D1B000ED3144 = {
+			isa = PBXGroup;
+			children = (
+				4A7AFED61564D1B000ED3144 /* WamTabBar */,
+				4A7AFEFE1564D1B000ED3144 /* WamTabBarTests */,
+				4A7AFECF1564D1B000ED3144 /* Frameworks */,
+				4A7AFECD1564D1B000ED3144 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A7AFECD1564D1B000ED3144 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A7AFECC1564D1B000ED3144 /* WamTabBar.app */,
+				4A7AFEF61564D1B000ED3144 /* WamTabBarTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A7AFECF1564D1B000ED3144 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A7AFED01564D1B000ED3144 /* UIKit.framework */,
+				4A7AFED21564D1B000ED3144 /* Foundation.framework */,
+				4A7AFED41564D1B000ED3144 /* CoreGraphics.framework */,
+				4A7AFEF71564D1B000ED3144 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A7AFED61564D1B000ED3144 /* WamTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				4A7AFEDF1564D1B000ED3144 /* WamTabBarAppDelegate.h */,
+				4A7AFEE01564D1B000ED3144 /* WamTabBarAppDelegate.m */,
+				4A7AFEE21564D1B000ED3144 /* MainWindow.xib */,
+				4A7AFEE51564D1B000ED3144 /* FirstViewController.h */,
+				4A7AFEE61564D1B000ED3144 /* FirstViewController.m */,
+				4A7AFEE81564D1B000ED3144 /* SecondViewController.h */,
+				4A7AFEE91564D1B000ED3144 /* SecondViewController.m */,
+				4A7AFEEB1564D1B000ED3144 /* FirstView.xib */,
+				4A7AFEEE1564D1B000ED3144 /* SecondView.xib */,
+				4A7AFED71564D1B000ED3144 /* Supporting Files */,
+			);
+			path = WamTabBar;
+			sourceTree = "<group>";
+		};
+		4A7AFED71564D1B000ED3144 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A7AFED81564D1B000ED3144 /* WamTabBar-Info.plist */,
+				4A7AFED91564D1B000ED3144 /* InfoPlist.strings */,
+				4A7AFEDC1564D1B000ED3144 /* main.m */,
+				4A7AFEDE1564D1B000ED3144 /* WamTabBar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A7AFEFE1564D1B000ED3144 /* WamTabBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A7AFF041564D1B000ED3144 /* WamTabBarTests.h */,
+				4A7AFF061564D1B000ED3144 /* WamTabBarTests.m */,
+				4A7AFEFF1564D1B000ED3144 /* Supporting Files */,
+			);
+			path = WamTabBarTests;
+			sourceTree = "<group>";
+		};
+		4A7AFEFF1564D1B000ED3144 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A7AFF001564D1B000ED3144 /* WamTabBarTests-Info.plist */,
+				4A7AFF011564D1B000ED3144 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A7AFECB1564D1B000ED3144 /* WamTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A7AFF0A1564D1B000ED3144 /* Build configuration list for PBXNativeTarget "WamTabBar" */;
+			buildPhases = (
+				4A7AFEC81564D1B000ED3144 /* Sources */,
+				4A7AFEC91564D1B000ED3144 /* Frameworks */,
+				4A7AFECA1564D1B000ED3144 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WamTabBar;
+			productName = WamTabBar;
+			productReference = 4A7AFECC1564D1B000ED3144 /* WamTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A7AFEF51564D1B000ED3144 /* WamTabBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A7AFF0D1564D1B000ED3144 /* Build configuration list for PBXNativeTarget "WamTabBarTests" */;
+			buildPhases = (
+				4A7AFEF11564D1B000ED3144 /* Sources */,
+				4A7AFEF21564D1B000ED3144 /* Frameworks */,
+				4A7AFEF31564D1B000ED3144 /* Resources */,
+				4A7AFEF41564D1B000ED3144 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A7AFEFD1564D1B000ED3144 /* PBXTargetDependency */,
+			);
+			name = WamTabBarTests;
+			productName = WamTabBarTests;
+			productReference = 4A7AFEF61564D1B000ED3144 /* WamTabBarTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A7AFEC31564D1B000ED3144 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4A7AFEC61564D1B000ED3144 /* Build configuration list for PBXProject "WamTabBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4A7AFEC11564D1B000ED3144;
+			productRefGroup = 4A7AFECD1564D1B000ED3144 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A7AFECB1564D1B000ED3144 /* WamTabBar */,
+				4A7AFEF51564D1B000ED3144 /* WamTabBarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A7AFECA1564D1B000ED3144 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A7AFEDB1564D1B000ED3144 /* InfoPlist.strings in Resources */,
+				4A7AFEE41564D1B000ED3144 /* MainWindow.xib in Resources */,
+				4A7AFEED1564D1B000ED3144 /* FirstView.xib in Resources */,
+				4A7AFEF01564D1B000ED3144 /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A7AFEF31564D1B000ED3144 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A7AFF031564D1B000ED3144 /* InfoPlist.strings in Resources */,
+				4A7AFF051564D1B000ED3144 /* WamTabBarTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A7AFEF41564D1B000ED3144 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A7AFEC81564D1B000ED3144 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A7AFEDD1564D1B000ED3144 /* main.m in Sources */,
+				4A7AFEE11564D1B000ED3144 /* WamTabBarAppDelegate.m in Sources */,
+				4A7AFEE71564D1B000ED3144 /* FirstViewController.m in Sources */,
+				4A7AFEEA1564D1B000ED3144 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A7AFEF11564D1B000ED3144 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A7AFF071564D1B000ED3144 /* WamTabBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A7AFEFD1564D1B000ED3144 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A7AFECB1564D1B000ED3144 /* WamTabBar */;
+			targetProxy = 4A7AFEFC1564D1B000ED3144 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A7AFED91564D1B000ED3144 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A7AFEDA1564D1B000ED3144 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4A7AFEE21564D1B000ED3144 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A7AFEE31564D1B000ED3144 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		4A7AFEEB1564D1B000ED3144 /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A7AFEEC1564D1B000ED3144 /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		4A7AFEEE1564D1B000ED3144 /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A7AFEEF1564D1B000ED3144 /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+		4A7AFF011564D1B000ED3144 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A7AFF021564D1B000ED3144 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A7AFF081564D1B000ED3144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4A7AFF091564D1B000ED3144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A7AFF0B1564D1B000ED3144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WamTabBar/WamTabBar-Prefix.pch";
+				INFOPLIST_FILE = "WamTabBar/WamTabBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4A7AFF0C1564D1B000ED3144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WamTabBar/WamTabBar-Prefix.pch";
+				INFOPLIST_FILE = "WamTabBar/WamTabBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4A7AFF0E1564D1B000ED3144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WamTabBar.app/WamTabBar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WamTabBar/WamTabBar-Prefix.pch";
+				INFOPLIST_FILE = "WamTabBarTests/WamTabBarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4A7AFF0F1564D1B000ED3144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WamTabBar.app/WamTabBar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WamTabBar/WamTabBar-Prefix.pch";
+				INFOPLIST_FILE = "WamTabBarTests/WamTabBarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A7AFEC61564D1B000ED3144 /* Build configuration list for PBXProject "WamTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A7AFF081564D1B000ED3144 /* Debug */,
+				4A7AFF091564D1B000ED3144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A7AFF0A1564D1B000ED3144 /* Build configuration list for PBXNativeTarget "WamTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A7AFF0B1564D1B000ED3144 /* Debug */,
+				4A7AFF0C1564D1B000ED3144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4A7AFF0D1564D1B000ED3144 /* Build configuration list for PBXNativeTarget "WamTabBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A7AFF0E1564D1B000ED3144 /* Debug */,
+				4A7AFF0F1564D1B000ED3144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A7AFEC31564D1B000ED3144 /* Project object */;
+}
